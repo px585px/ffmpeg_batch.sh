@@ -14,7 +14,7 @@ read -p "Enter output filetype (required): " oext
 [[ -z $oext ]] && echo "You can't leave it empty" && exit
 read -p "Enter ffmpeg flags to use (optinal): " flags
 
-#loop through folders and execute ffmpeg on files whith matching input extention
+#loop through folders and execute ffmpeg on files whith matching input extension
 for file in $(find . -type f -name "*$iext"); do
     echo $file
     $(ffmpeg -i $file $flags ${file%.*}.$oext)
