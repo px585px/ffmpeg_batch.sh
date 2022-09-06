@@ -7,9 +7,9 @@ e.g. `bash ffmpeg-recursive.sh`
 or provide a path
 e.g. `bash ffmpeg-recursive ~/Vidoes/nature`
 
-###After running the script you will be asked to enter some information like:
+### After running the script you will be asked to enter some information like:
 - input filetype of the media files that you want to process with ffmpeg 
 - output filetype of the media that ffmpeg will be creating
 - ffmpeg flags that you may want to use
 
-###the output media will be save in the folder as the input media
+### the output media will be save in the folder as the input media
