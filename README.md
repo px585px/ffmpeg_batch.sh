@@ -1,4 +1,4 @@
-# FFbatch.sh is a simple script to help you use FFMPEG recursivly on media files in folders and sub-folders."
+# FFbatch.sh helps you use FFMPEG recursivly
     
     ## Example: bash FFbatch.sh -i ~/Videos -o ~/Videos/Edited -e mov -x mp4 -f '-vn'
 
