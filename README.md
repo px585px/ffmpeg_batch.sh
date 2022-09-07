@@ -1,8 +1,8 @@
 # FFbatch.sh helps you use FFMPEG recursivly 
     
-    ## Example: bash FFbatch.sh -i ~/Videos -o ~/Videos/Edited -e mov -x mp4 -f '-vn' ##
+## Example: bash FFbatch.sh -i ~/Videos -o ~/Videos/Edited -e mov -x mp4 -f '-vn' ##
 
-    ### Options: ###
+### Options: ###
     -i     Specify INPUT folder."
     -o     Specify OUTPUT folder (if not Specified will save media files in thier original location).
     -e     Specify the INPUT media filetype extension.
