@@ -15,8 +15,8 @@ read -e -p "Specify INPUT folder (Leave empty = current folder): " in_dir
 [[ -n $in_dir ]] && [[ ! -d $in_dir ]] && echo "Directory $in_dir DOES NOT exists." && exit
 read -e -p "Specify OUTPUT folder (Leave empty = same as input folder): " out_dir
 [[ -n $out_dir ]] && [[ ! -d $out_dir ]] && echo "Directory $out_dir DOES NOT exists." && exit
-read -p "Specify INPUT filetype (leave empty = all filetypes): " in_ext
-read -p "Specify OUTPUT filetype (required): " out_ext 
+read -p "Specify INPUT filetype (Leave empty = all filetypes): " in_ext
+read -p "Specify OUTPUT filetype (Required): " out_ext 
 [[ -z $out_ext ]] && echo "Please specify an output filetype" && exit
 
 #loop through folders and execute ffmpeg on files with matching input extention
