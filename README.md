@@ -1,4 +1,4 @@
-# ffmoeg_batch.sh helps you use FFMPEG recursivly 
+# ffmpeg_batch.sh helps you use FFMPEG recursivly 
     
 To use the script Enter ./FFbatsh.sh + any ffmpeg options in your terminal emulator
     
