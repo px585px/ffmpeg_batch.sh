@@ -1,8 +1,8 @@
-# FFbatch.sh helps you use FFMPEG recursivly 
+# ffmoeg_batch.sh helps you use FFMPEG recursivly 
     
 To use the script Enter ./FFbatsh.sh + any ffmpeg options in your terminal emulator
     
-Example: `./FFbatch.sh -s 1920x1080 -sws_flags lanczos -pix_fmt yuv420p -vsync 1`
+Example: `./ffmpeg_batch.sh -s 1920x1080 -sws_flags lanczos -pix_fmt yuv420p -vsync 1`
 
   the script will then ask you to privide some info:
   
